@@ -1,0 +1,14 @@
+<!Doctype html>
+<html lang= "eu ">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Go</title>
+</head>
+<body>
+<ul>
+    {{range $index, $value := .}}
+    <li> English lexicon {{$index}} {{$value}} </li>
+    {{end}}
+</ul>
+</body>
+</html>
